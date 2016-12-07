@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel macalculette.js --watch -o bundle.js"
+    "watch": "babel main.js --watch -o bundle.js"
   },
   "author": "",
   "license": "ISC"

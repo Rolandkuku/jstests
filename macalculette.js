@@ -44,7 +44,7 @@ class testCalculator {
         console.log("Div test passed");
     }
     testAvg() {
-        expect(this.c.avg([2, 2])).toEqual(2);
+        expect(this.c.avg([2, 2])).toEqual(5);
         console.log("Avg test passed");
     }
 }
