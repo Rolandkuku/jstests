@@ -48,10 +48,3 @@ class testCalculator {
         console.log("Avg test passed");
     }
 }
-
-// let t = new testCalculator();
-// t.testAdd();
-// t.testSub();
-// t.testMul();
-// t.testDiv();
-// t.testAvg();
