@@ -2,14 +2,29 @@
   "name": "tests",
   "version": "1.0.0",
   "description": "",
-  "main": "macalculette.js",
+  "main": "main.js",
   "dependencies": {
-    "expect": "^1.20.2"
+    "expect": "^1.20.2",
+    "jest": "^17.0.3",
+    "webpack": "^1.14.0"
   },
-  "devDependencies": {},
+  "jest": {
+    "verbose": true,
+    "testPathDirs": [
+      "./src/"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel main.js --watch -o bundle.js"
+    "watch": "webpack -d --watch --config webpack.config.js",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "author": "",
   "license": "ISC"

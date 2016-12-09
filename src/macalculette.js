@@ -49,9 +49,9 @@ class testCalculator {
     }
 }
 
-let t = new testCalculator();
-t.testAdd();
-t.testSub();
-t.testMul();
-t.testDiv();
-t.testAvg();
+// let t = new testCalculator();
+// t.testAdd();
+// t.testSub();
+// t.testMul();
+// t.testDiv();
+// t.testAvg();
